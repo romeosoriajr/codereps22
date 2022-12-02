@@ -4,22 +4,6 @@ try {
   const data = fs.readFileSync('./input.txt', 'utf-8');
   const arr = data.split('\n');
 
-  // const topElves = [null, null, null];
-  // rewrite to do all in one shot.
-  //
-
-
-
-  // let currSum = 0;
-  // for (let i=0; i < arr.length; i++) {
-
-  //   if (currSum == '') {
-
-  //     //
-  //   }
-
-  // }
-
   const sum = arr.reduce((arr, curr) => {
 
     if (curr == '') {
